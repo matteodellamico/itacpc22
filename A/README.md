@@ -1,4 +1,4 @@
-[A: Bitwise Party](https://judge.itacpc.it/team/problems/9/text)
+[Bitwise Party (A)](https://judge.itacpc.it/team/problems/9/text)
 ================================================================
 
 Here we have N integers and we have to find out the largest number of them that have at once nonzero bitwise AND and XOR.

@@ -4,14 +4,13 @@ def print_solution(state):
     n, xor = max(state)
     print(n - (not bool(xor)))
 
-
 # input data
 _, n_queries = map(int, input().strip().split())
 values = list(map(int, input().strip().split()))
 
 masks = [1 << i for i in range(20)]
 
-state = []
+state = []  # for each masks: (count, xor)
 for m in masks:
     n, xor = 0, 0
     for v in values:

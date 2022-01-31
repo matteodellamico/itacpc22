@@ -8,5 +8,5 @@ Quick way of running one of the problems on the sample input:
 
 To check whether there are differences between sample input and output:
 
-`diff <(pypy3 A/andxor.py <A/1.in) A/1.out`
+`diff <(pypy3 A/andxor.py < A/1.in) A/1.out`
 
